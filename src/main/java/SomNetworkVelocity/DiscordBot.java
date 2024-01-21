@@ -41,10 +41,10 @@ public class DiscordBot extends ListenerAdapter {
     public static Role LinkRole;
     public static void connect() {
         try {
-            String discordBotToken = "OTY3NTk0ODc4ODY1Mzc1MzAy.Gn1DQh._xWZtIxv7LhnT2z0gVaLs2tks7VgIaQW7dU1HE";
-            long discordServerId = 520366411999346698L;
-            long discordChatChannel = 520366412003540993L;
-            String discordChatWebhook = "https://discord.com/api/webhooks/967720248293875762/Xrypxz7X5tfEuotjcDuSPpnT-CdgO0l5FXzmcIbNR_sVaELfgboSbSBymS6Bp6xIcFTi";
+            String discordBotToken = "BOT_TOKEN";
+            long discordServerId = SERVER_ID;
+            long discordChatChannel = CHAT_CHANNCEL_ID;
+            String discordChatWebhook = "HOOK_URL";
 
             jda = JDABuilder.createDefault(discordBotToken)
                     .enableIntents(Arrays.asList(GatewayIntent.values()))
