@@ -12,11 +12,11 @@ import java.util.concurrent.ExecutionException;
 import static SomNetworkVelocity.SomCore.Log;
 
 public class SomSQL {
-    private static final String host = "192.168.0.9";
-    private static final int port = 3306;
-    private static final String database = "SomNetworkVelocity";
-    private static final String user = "somnet";
-    private static final String pass = "somnet";
+    private static final String host = "host";
+    private static final int port = port;
+    private static final String database = "database";
+    private static final String user = "user";
+    private static final String pass = "pass";
 
     private static Connection connection;
 
